@@ -4,11 +4,21 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WrittenInnaCode/Note_Taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/WrittenInnaCode/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/WrittenInnaCode/Note_Taker#readme"
 }
