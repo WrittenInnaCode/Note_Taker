@@ -10,7 +10,7 @@ router.get('/notes', (req, res) =>
 
 
 // GET Route for index.html
-router.get('/', (req, res) =>
+router.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '../public/index.html'))
 );
 

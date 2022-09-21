@@ -3,10 +3,14 @@ const router = require("express").Router();
 const {v4: uuidv4} = require('uuid');
 const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
 
+
+ // Populate the saved notes from the JSON file
 router.get("/notes", (req, res) =>{
     readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
 });
 
+
+ // Add new note to JSON file when entered and saved
 router.post("/notes", (req, res) => {
     const { title, text } = req.body;
 
@@ -23,7 +27,6 @@ router.post("/notes", (req, res) => {
         res.error('Error in adding note');
       }
 });
-
 
 
 module.exports = router;
