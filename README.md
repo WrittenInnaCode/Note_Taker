@@ -1,8 +1,9 @@
 # Note Taker
 
-💻 [The repo can be found here.](https://github.com/WrittenInnaCode/Note_Taker)
+💻 [The repo can be found here.](https://github.com/WrittenInnaCode/Note_Taker) <br/>
+📺 [The deployed app can be found here.](https://coherent-silken-peripheral.glitch.me/)
 
-<br/><br/>
+<br/>
 
 ## Table of Contents:
 * [Description](#description)
