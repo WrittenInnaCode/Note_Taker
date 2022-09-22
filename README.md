@@ -43,7 +43,8 @@ The application will be invoked by using the following command:
 <br/><br/>
 
 ## Contributor:
-Inna Sherstnyova
+Inna Sherstnyova<br/>
+Starter code with the front end files were provided in my course materials.
 <br/><br/>
 
 ## Questions:
