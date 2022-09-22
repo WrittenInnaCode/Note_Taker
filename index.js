@@ -3,14 +3,14 @@ const express = require("express");
 
 const fs = require("fs");
 
+const app = express();
+
 // point server to route files
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 
 const PORT = process.env.PORT || 3003;
-
-const app = express();
 
 
 // Middleware for parsing JSON and urlencoded form data
